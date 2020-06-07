@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+
+import json
+import sys
+import cyberprobe.analytic as q
+from google.protobuf.json_format import MessageToJson
+
+if len(sys.argv) < 2:
+    binding = "cyberprobe"
+else:
+    binding = sys.argv[1]
+
+class Dumper(q.EventAnalytic):
+
+    def __init__(self, binding, outputs=[]):
+        super().__init__(binding, outputs)
+
+    def event(self, ev, properties):
+        data = MessageToJson(ev)
+        data = json.dumps(json.loads(data))
+        print(data)
+        
+Dumper(binding).run()
+
