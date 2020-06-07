@@ -8,7 +8,6 @@ all: build
 build:
 	${DOCKER} build -t ${REPO}:${VERSION} -f Dockerfile .
 
-
-
-
+push:
+	${DOCKER} push ${REPO}:${VERSION}
 
