@@ -8,13 +8,7 @@ all: evs-dump build
 
 deps: go go/src/github.com/cybermaggedon/evs-golang-api
 
-go:
-	mkdir go
-
-go/src/github.com/cybermaggedon/evs-golang-api:
-	${GO} get github.com/cybermaggedon/evs-golang-api
-
-evs-dump: evs-dump.go deps
+evs-dump: evs-dump.go
 	${GO} build evs-dump.go
 
 build: evs-dump
