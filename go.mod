@@ -2,4 +2,4 @@ module main
 
 go 1.14
 
-require github.com/cybermaggedon/evs-golang-api v0.0.1 // indirect
+require github.com/cybermaggedon/evs-golang-api v0.0.2 // indirect
