@@ -6,9 +6,7 @@ GO=GOPATH=$$(pwd)/go go
 
 all: evs-dump build
 
-deps: go go/src/github.com/cybermaggedon/evs-golang-api
-
-evs-dump: evs-dump.go
+evs-dump: evs-dump.go go.mod go.sum
 	${GO} build evs-dump.go
 
 build: evs-dump
