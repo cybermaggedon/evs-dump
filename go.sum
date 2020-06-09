@@ -29,6 +29,16 @@ github.com/cybermaggedon/evs-golang-api v0.0.2-0.20200608170449-f19ca5790cd9 h1:
 github.com/cybermaggedon/evs-golang-api v0.0.2-0.20200608170449-f19ca5790cd9/go.mod h1:KjMnuSblYcwt3wCTUBc+RTLL2oSl5kOey0q5sCkKjqE=
 github.com/cybermaggedon/evs-golang-api v0.0.2 h1:ki1alzHOUrcR6gCWNRyXBr3ZGyYIO3Euhyr3/v4DTtk=
 github.com/cybermaggedon/evs-golang-api v0.0.2/go.mod h1:KjMnuSblYcwt3wCTUBc+RTLL2oSl5kOey0q5sCkKjqE=
+github.com/cybermaggedon/evs-golang-api v0.0.3-0.20200609090038-6e9c914057ff h1:fq/pIZpTWx9urMXNbqIBRGo6voXI4dST4ec2BlEBnog=
+github.com/cybermaggedon/evs-golang-api v0.0.3-0.20200609090038-6e9c914057ff/go.mod h1:KjMnuSblYcwt3wCTUBc+RTLL2oSl5kOey0q5sCkKjqE=
+github.com/cybermaggedon/evs-golang-api v0.0.3-0.20200609090549-98b1c1f79afe h1:c+cUmUfHcWR6DjQOPLabS+swiYJcs5btAyQuBghgz4w=
+github.com/cybermaggedon/evs-golang-api v0.0.3-0.20200609090549-98b1c1f79afe/go.mod h1:KjMnuSblYcwt3wCTUBc+RTLL2oSl5kOey0q5sCkKjqE=
+github.com/cybermaggedon/evs-golang-api v0.0.3-0.20200609090714-75cf39ff27f8 h1:8o1hEm13h7cvOALTcbWduodLkbg0IdQB/nrI3sNyiLE=
+github.com/cybermaggedon/evs-golang-api v0.0.3-0.20200609090714-75cf39ff27f8/go.mod h1:KjMnuSblYcwt3wCTUBc+RTLL2oSl5kOey0q5sCkKjqE=
+github.com/cybermaggedon/evs-golang-api v0.0.3-0.20200609091302-a3162bb654e0 h1:/Sn0lZALbNh4AqGyu4TX7gN8WSpKo7cXpggv7yQvUXQ=
+github.com/cybermaggedon/evs-golang-api v0.0.3-0.20200609091302-a3162bb654e0/go.mod h1:KjMnuSblYcwt3wCTUBc+RTLL2oSl5kOey0q5sCkKjqE=
+github.com/cybermaggedon/evs-golang-api v0.1.0 h1:idcA8PkGOMa3IPC+cqD8EyrlJYRGZAB9vraKpT9Xxe8=
+github.com/cybermaggedon/evs-golang-api v0.1.0/go.mod h1:KjMnuSblYcwt3wCTUBc+RTLL2oSl5kOey0q5sCkKjqE=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/envoyproxy/go-control-plane v0.9.0/go.mod h1:YTl/9mNaCwkRvm6d1a2C3ymFceY/DCBVvsKhRF0iEA4=

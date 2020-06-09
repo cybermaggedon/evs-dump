@@ -1,4 +1,5 @@
 
+# Create version tag from git tag
 VERSION=$(shell git describe | sed 's/^v//')
 REPO=cybermaggedon/evs-dump
 DOCKER=docker
