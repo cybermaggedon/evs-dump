@@ -28,7 +28,7 @@ type Dump struct {
 
 func NewDump(dc *DumpConfig) *Dump {
 
-	d := &Dump{ DumpConfig: dc }
+	d := &Dump{DumpConfig: dc}
 
 	var err error
 	d.EventSubscriber, err = evs.NewEventSubscriber(d.Name, d.Input, d)
@@ -45,7 +45,6 @@ func NewDump(dc *DumpConfig) *Dump {
 
 	return d
 }
-	
 
 // Event handler
 func (d *Dump) Event(ev *pb.Event, properties map[string]string) error {
@@ -74,4 +73,3 @@ func main() {
 	log.Print("Shutdown.")
 
 }
-
