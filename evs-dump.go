@@ -22,7 +22,6 @@ func NewDumpConfig() *DumpConfig {
 type Dump struct {
 	*DumpConfig
 	*evs.EventSubscriber
-	*evs.EventProducer
 	evs.Interruptible
 }
 
@@ -32,11 +31,6 @@ func NewDump(dc *DumpConfig) *Dump {
 
 	var err error
 	d.EventSubscriber, err = evs.NewEventSubscriber(d.Name, d.Input, d)
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	d.EventProducer, err = evs.NewEventProducer(d.Name, d.Outputs)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -58,8 +52,6 @@ func (d *Dump) Event(ev *pb.Event, properties map[string]string) error {
 	}
 
 	fmt.Println(string(j))
-
-	d.Output(ev, properties)
 
 	return nil
 
