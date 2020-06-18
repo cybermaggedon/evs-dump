@@ -69,11 +69,8 @@ func (d *Dump) Event(ev *pb.Event, properties map[string]string) error {
 func main() {
 
 	dc := NewDumpConfig()
-
 	d := NewDump(dc)
-	
 	d.Run()
-
 	log.Print("Shutdown.")
 
 }
