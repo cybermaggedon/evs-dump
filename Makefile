@@ -12,7 +12,10 @@ evs-dump: evs-dump.go go.mod go.sum
 
 build: evs-dump
 	${DOCKER} build -t ${REPO}:${VERSION} -f Dockerfile .
+	${DOCKER} tag ${REPO}:${VERSION} ${REPO}:latest
 
 push:
 	${DOCKER} push ${REPO}:${VERSION}
+	${DOCKER} push ${REPO}:latest
+
 
