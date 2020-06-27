@@ -14,7 +14,7 @@ type DumpConfig struct {
 
 func NewDumpConfig() *DumpConfig {
 	return &DumpConfig{
-		Config: evs.NewConfig("evs-dump", "cyberprobe"),
+		Config: evs.NewConfig("evs-dump", "cyberprobe", nil),
 	}
 }
 
