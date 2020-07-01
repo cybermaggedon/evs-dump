@@ -30,7 +30,7 @@ func NewDump(dc *DumpConfig) *Dump {
 	d := &Dump{DumpConfig: dc}
 
 	var err error
-	d.EventSubscriber, err = evs.NewEventSubscriber(d.Name, d.Input, d)
+	d.EventSubscriber, err = evs.NewEventSubscriber(d, d)
 	if err != nil {
 		log.Fatal(err)
 	}
